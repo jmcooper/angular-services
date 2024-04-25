@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="title">
+    Hire an expert from our Bot Squad!
+  </div>
+  <div class="subtitle">
+    Prices listed are per hour.
+  </div>
+  <ul class="products">
+    <li class="product-item" *ngFor="let engineer of squad">
+      <bot-product-details [product]="engineer">
+        <button class="cta" (click)="addToCart(engineer)">Hire</button>
+      </bot-product-details>
+    </li>
+  </ul>
+</div>

@@ -1,0 +1,31 @@
+.bold {
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  text-align: center;
+  font-size: 32px;
+  margin-top: 25px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #999;
+  font-size: 22px;
+  margin: 5px 0 25px 0;
+
+}
+
+.products {
+  border-top: 2px solid #999;
+  margin: 0 100px;
+}
+
+.product-item {
+  border-bottom: 2px solid #999;
+}

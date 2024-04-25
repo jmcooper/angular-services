@@ -1,0 +1,31 @@
+.bold {
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.filters {
+  background-color: #F9F9FD;
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  padding: 25px 50px;
+}
+
+.filters .button {
+  width: 80px;
+  margin-top: 20px;
+}
+
+.products {
+  margin: 0 100px;
+}
+
+.product-item {
+  border-bottom: 2px solid #999;
+}

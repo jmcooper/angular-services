@@ -1,0 +1,9 @@
+<div class="container">
+  <ul class="products">
+    <li class="product-item" *ngFor="let product of products">
+      <bot-product-details [product]="product">
+        <button class="cta" (click)="addToCart(product)">Buy</button>
+      </bot-product-details>
+    </li>
+  </ul>
+</div>
