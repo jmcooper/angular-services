@@ -1,6 +1,6 @@
 # JoesRobotShop
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.0.
+This is the demo project for Pluralsight's Angular Services course.
 
 ## Development server
 
